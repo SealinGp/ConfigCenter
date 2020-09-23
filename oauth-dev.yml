@@ -1,0 +1,18 @@
+#zipin链路追踪服务端(url=上报地址)
+trace:
+  host: 127.0.0.1
+  port: 9411
+  url: "/api/v2/spans"
+
+#mysql服务端
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  
+#注册与发现中心服务端
+discover:
+  Host: 127.0.0.1
+  port: 8500
+  instanceId: oauth-service-localhost
+  serviceName: oauth
+  weight: 10
