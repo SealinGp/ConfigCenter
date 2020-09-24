@@ -1,4 +1,5 @@
-# ConfigCenter
+## ConfigCenter
+```
 #http://配置中心地址/匹配规则path
 
 #匹配规则path:
@@ -14,4 +15,5 @@
 #application : 应用名称,服务名称
 #configType  : 配置文件的类型(后缀名)
 
+```
 分布式 config 配置仓库
