@@ -2,6 +2,9 @@
 mysql:
   host: 127.0.0.1
   port: 3306
+  User: root
+  Pwd: a123456
+  Db: test
   
 #zipin链路追踪服务端(url=上报地址)
 trace:
