@@ -11,3 +11,13 @@ trace:
   host: 127.0.0.1
   port: 9411
   url: "/api/v2/spans"
+
+
+hystrix:
+  host: 127.0.0.1
+  port: 9010
+  
+auth:
+  PermitAll:
+    - test1
+    - test2
